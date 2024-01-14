@@ -3,7 +3,6 @@ pip==22.0.3
 pandas==1.5.3
 numpy==1.23.5
 nltk==3.7
-regex==2022.7.9
 constractions==0.1.73
 scikit-learn==1.2.1
 gensim==4.3.0
