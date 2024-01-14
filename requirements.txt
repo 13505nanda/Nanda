@@ -3,7 +3,7 @@ pip==22.0.3
 pandas
 numpy
 nltk
-re
+regex
 constractions
 scikit-learn
 gensim
