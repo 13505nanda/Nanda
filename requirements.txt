@@ -1,5 +1,8 @@
-numpy
-pandas
 streamlit
+pandas
+numpy
+nltk
+re
+constractions
 scikit-learn
-pip
+gensim
