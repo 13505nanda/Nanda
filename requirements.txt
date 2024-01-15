@@ -1,6 +1,5 @@
 streamlit
 pip
-expander
 pandas==1.5.3
 numpy==1.23.5
 nltk==3.7
