@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import nltk
 import re
-from expander import contractions
+#from expander import contractions
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from gensim.models import FastText
@@ -29,7 +29,7 @@ def normalize_document(doc):
     doc = re.sub(r'[^a-zA-Z0-9\s]', '', doc, re.I|re.A)
     doc = doc.lower()
     doc = doc.strip()
-    doc = contractions.fix(doc)
+    #doc = contractions.fix(doc)
     tokens = nltk.word_tokenize(doc)
     filtered_tokens = [token for token in tokens if token not in stop_words]
     doc = ' '.join(filtered_tokens)
