@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import nltk
 import re
-import contractions
+from expander import contractions
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from gensim.models import FastText
