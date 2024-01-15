@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 import re
 #from expander import contractions
 from sklearn.feature_extraction.text import TfidfVectorizer
